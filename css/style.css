@@ -13,17 +13,27 @@ img {
     transform: translate(-50%, -50%);
 }
 
-p {
+p:first-of-type {
     position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-75%, -50%);
+    top: 78%;
+    left: 57%;
+    transform: translate(-78%, -57%);
+}
+
+p:last-of-type {
+    position: absolute;
+    top: 86%;
+    left: 53%;
+    transform: translate(-86%, -53%);
 }
 
 /* UTILITIES */
 .measures_div {
     height: 100vh;
     position: relative;
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
 }
 
 
