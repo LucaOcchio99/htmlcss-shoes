@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    height: 50%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-75%, -50%);
+}
+
+/* UTILITIES */
+.measures_div {
+    height: 100vh;
+    position: relative;
+}
+
+
+/*CLASS SUPERGA*/
+.superga {
+    background-color: red;
+}
+
+/* CLASS TOMMY */
+.tommy {
+    background-color: green;
+}
+
+/* CLASS CONNVERSE */
+.converse {
+    background-color: yellow;
+}
